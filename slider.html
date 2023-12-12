@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>  
+  <link rel="stylesheet" href="slider.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="slider">
+        <img class="image" src="Images/macaque-monkey-in-the-nature_475.jpg" alt="Макака">                
+        <img class="image" src="Images/article_473413460.jpg"
+          alt="Орангутанг">
+        <img class="image" src="Images/close-up-on-gibbons-in-nature_23.jpg"
+          alt="Детеныши гиббона">
+          <img class="image" src="Images/gorilla-sitting-on-the-grass-whi.jpg"
+          alt="Горилла">
+          <img class="image" src="Images/800px-Affe_Gueryza_0509012.jpg"
+          alt="Колобусы">
+    </div>  
+</div>
+<div class="nav">
+    <button class="btn prev">Предыдущее изображение</button>      
+    <div class="dots"></div>
+    <button class="btn next">Следующее изображение</button>    
+  </div>
+
+  
+  <script src="slider.js"></script>
+  <script>
+    new Slider(0, { autoPlay: true, fade: true })
+  </script>
+</body>
+
+</html>
